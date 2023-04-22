@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 	"path"
+	"runtime"
 	"strings"
 
 	js "github.com/dop251/goja"
@@ -31,6 +32,11 @@ func (r *RequireModule) resolve(modpath string) (module *js.Object, err error) {
 		origPath == "." || origPath == ".." {
 		if module = r.modules[p]; module != nil {
 			return
+		}
+
+		if runtime.GOOS == "windows" {
+			//windows 上 执行环境有问题
+			p = r.r.prefixPath + p
 		}
 		module, err = r.loadAsFileOrDirectory(p)
 		if err == nil && module != nil {
@@ -80,6 +86,7 @@ func (r *RequireModule) loadNative(path string) (*js.Object, error) {
 }
 
 func (r *RequireModule) loadAsFileOrDirectory(path string) (module *js.Object, err error) {
+
 	if module, err = r.loadAsFile(path); module != nil || err != nil {
 		return
 	}

@@ -40,6 +40,9 @@ type Registry struct {
 
 	srcLoader     SourceLoader
 	globalFolders []string
+
+	//win应用加载路径
+	prefixPath string
 }
 
 type RequireModule struct {
@@ -47,6 +50,13 @@ type RequireModule struct {
 	runtime     *js.Runtime
 	modules     map[string]*js.Object
 	nodeModules map[string]*js.Object
+}
+
+// 在window和linux上运行环境好像不太相似 这个仅仅在window上 生效
+func WithPrefixPath(prefixPath string) Option {
+	return func(r *Registry) {
+		r.prefixPath = prefixPath
+	}
 }
 
 func NewRegistry(opts ...Option) *Registry {

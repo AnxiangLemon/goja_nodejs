@@ -9,8 +9,8 @@ Example:
 package main
 
 import (
-    "github.com/dop251/goja"
-    "github.com/dop251/goja_nodejs/require"
+    "github.com/AnxiangLemon/goja_nodejs"
+    "github.com/AnxiangLemon/goja_nodejs/require"
 )
 
 func main() {

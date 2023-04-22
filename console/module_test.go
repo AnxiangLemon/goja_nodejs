@@ -3,8 +3,7 @@ package console
 import (
 	"testing"
 
-	"github.com/dop251/goja"
-	"github.com/dop251/goja_nodejs/require"
+	"github.com/AnxiangLemon/goja_nodejs/require"
 )
 
 func TestConsole(t *testing.T) {

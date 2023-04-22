@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"strings"
 
-	js "github.com/dop251/goja"
+	js "github.com/AnxiangLemon/goja_nodejs"
 )
 
 // NodeJS module search algorithm described by

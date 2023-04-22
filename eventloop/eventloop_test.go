@@ -5,8 +5,6 @@ import (
 	"sync/atomic"
 	"testing"
 	"time"
-
-	"github.com/dop251/goja"
 )
 
 func TestRun(t *testing.T) {

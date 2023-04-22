@@ -3,9 +3,8 @@ package console
 import (
 	"log"
 
-	"github.com/dop251/goja"
-	"github.com/dop251/goja_nodejs/require"
-	"github.com/dop251/goja_nodejs/util"
+	"github.com/AnxiangLemon/goja_nodejs/require"
+	"github.com/AnxiangLemon/goja_nodejs/util"
 )
 
 const ModuleName = "node:console"

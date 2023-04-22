@@ -6,8 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dop251/goja"
-	"github.com/dop251/goja_nodejs/require"
+	"github.com/AnxiangLemon/goja_nodejs/require"
 )
 
 func TestProcessEnvStructure(t *testing.T) {

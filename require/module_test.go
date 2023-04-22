@@ -9,7 +9,7 @@ import (
 	"path"
 	"testing"
 
-	js "github.com/dop251/goja"
+	js "github.com/AnxiangLemon/goja_nodejs"
 )
 
 func mapFileSystemSourceLoader(files map[string]string) SourceLoader {

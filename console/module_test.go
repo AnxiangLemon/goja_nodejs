@@ -1,9 +1,10 @@
 package console
 
 import (
+	"github.com/AnxiangLemon/goja"
 	"testing"
 
-	"LemonNodejs/require"
+	"github.com/AnxiangLemon/goja_nodejs/require"
 )
 
 func TestConsole(t *testing.T) {

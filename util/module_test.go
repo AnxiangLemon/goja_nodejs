@@ -3,6 +3,7 @@ package util
 import (
 	"bytes"
 	"github.com/AnxiangLemon/goja"
+	"github.com/AnxiangLemon/goja_nodejs/require"
 	"testing"
 )
 
@@ -54,7 +55,7 @@ func TestUtil_Format_MoreArgs(t *testing.T) {
 	}
 }
 
-/*func TestJSNoArgs(t *testing.T) {
+func TestJSNoArgs(t *testing.T) {
 	vm := goja.New()
 	new(require.Registry).Enable(vm)
 
@@ -70,4 +71,3 @@ func TestUtil_Format_MoreArgs(t *testing.T) {
 		}
 	}
 }
-*/

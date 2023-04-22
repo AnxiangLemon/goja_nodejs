@@ -1,9 +1,9 @@
 package util
 
 import (
-	"LemonNodejs/require"
 	"bytes"
 	"github.com/AnxiangLemon/goja"
+	"github.com/AnxiangLemon/goja_nodejs/require"
 )
 
 const ModuleName = "node:util"

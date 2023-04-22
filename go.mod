@@ -1,4 +1,4 @@
-module LemonNodejs
+module github.com/AnxiangLemon/goja_nodejs
 
 go 1.16
 

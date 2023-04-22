@@ -2,9 +2,10 @@ package url
 
 import (
 	_ "embed"
+	"github.com/AnxiangLemon/goja"
 	"testing"
 
-	"LemonNodejs/require"
+	"github.com/AnxiangLemon/goja_nodejs/require"
 )
 
 func TestURL(t *testing.T) {

@@ -4,8 +4,8 @@ import (
 	"github.com/AnxiangLemon/goja"
 	"log"
 
-	"LemonNodejs/require"
-	"LemonNodejs/util"
+	"github.com/AnxiangLemon/goja_nodejs/require"
+	"github.com/AnxiangLemon/goja_nodejs/util"
 )
 
 const ModuleName = "node:console"

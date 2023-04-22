@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"LemonNodejs/require"
+	"github.com/AnxiangLemon/goja_nodejs/require"
 )
 
 type Process struct {

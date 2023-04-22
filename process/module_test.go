@@ -2,11 +2,11 @@ package process
 
 import (
 	"fmt"
+	"github.com/AnxiangLemon/goja"
+	"github.com/AnxiangLemon/goja_nodejs/require"
 	"os"
 	"strings"
 	"testing"
-
-	"LemonNodejs/require"
 )
 
 func TestProcessEnvStructure(t *testing.T) {

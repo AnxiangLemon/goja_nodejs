@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"LemonNodejs/require"
 	"github.com/AnxiangLemon/goja"
+	"github.com/AnxiangLemon/goja_nodejs/require"
 	"golang.org/x/net/idna"
 )
 

@@ -6,8 +6,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"LemonNodejs/console"
-	"LemonNodejs/require"
+	"github.com/AnxiangLemon/goja_nodejs/console"
+	"github.com/AnxiangLemon/goja_nodejs/require"
 )
 
 type job struct {

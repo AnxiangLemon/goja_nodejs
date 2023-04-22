@@ -1,10 +1,11 @@
 package console
 
 import (
+	"github.com/AnxiangLemon/goja"
 	"log"
 
-	"github.com/AnxiangLemon/goja_nodejs/require"
-	"github.com/AnxiangLemon/goja_nodejs/util"
+	"LemonNodejs/require"
+	"LemonNodejs/util"
 )
 
 const ModuleName = "node:console"

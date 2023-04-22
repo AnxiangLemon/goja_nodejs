@@ -4,7 +4,7 @@ import (
 	_ "embed"
 	"testing"
 
-	"github.com/AnxiangLemon/goja_nodejs/require"
+	"LemonNodejs/require"
 )
 
 func TestURL(t *testing.T) {

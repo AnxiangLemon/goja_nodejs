@@ -1,10 +1,11 @@
 package process
 
 import (
+	"github.com/AnxiangLemon/goja"
 	"os"
 	"strings"
 
-	"github.com/AnxiangLemon/goja_nodejs/require"
+	"LemonNodejs/require"
 )
 
 type Process struct {

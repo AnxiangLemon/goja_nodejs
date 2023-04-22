@@ -3,7 +3,7 @@ package console
 import (
 	"testing"
 
-	"github.com/AnxiangLemon/goja_nodejs/require"
+	"LemonNodejs/require"
 )
 
 func TestConsole(t *testing.T) {

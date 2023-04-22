@@ -1,12 +1,13 @@
 package eventloop
 
 import (
+	"github.com/AnxiangLemon/goja"
 	"sync"
 	"sync/atomic"
 	"time"
 
-	"github.com/AnxiangLemon/goja_nodejs/console"
-	"github.com/AnxiangLemon/goja_nodejs/require"
+	"LemonNodejs/console"
+	"LemonNodejs/require"
 )
 
 type job struct {

@@ -2,6 +2,8 @@ package require
 
 import (
 	"errors"
+	js "github.com/AnxiangLemon/goja"
+	"github.com/AnxiangLemon/goja/parser"
 	"io"
 	"io/fs"
 	"os"
@@ -11,9 +13,6 @@ import (
 	"sync"
 	"syscall"
 	"text/template"
-
-	js "github.com/AnxiangLemon/goja_nodejs"
-	"github.com/AnxiangLemon/goja_nodejs/parser"
 )
 
 type ModuleLoader func(*js.Runtime, *js.Object)

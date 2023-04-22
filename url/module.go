@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
+	"LemonNodejs/require"
+	"github.com/AnxiangLemon/goja"
 	"golang.org/x/net/idna"
-
-	"github.com/AnxiangLemon/goja_nodejs/require"
 )
 
 const ModuleName = "node:url"
